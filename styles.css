@@ -1,0 +1,51 @@
+body{
+	background-color: pink;
+	border: 7px dotted hotpink;
+	padding: 30px;
+	padding-bottom: 230px;
+	color: hotpink;
+	
+}
+.information {
+	background-color: white;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+div {
+	display: inline block;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	border: 5px solid hotpink;
+	border-radius: 10px;
+	font-weight: 20;
+	font-family: Verdana, sans-serif;
+	
+}
+
+.image {
+	border-radius: 15px;
+}
+
+
+#crepe {
+	margin-left: 10px;
+}
+
+
+
+h3 {
+	background-color: white;
+	padding: 3px 10px 3px 10px;
+	display: inline;
+	border-radius: 30px;
+	font-family: Verdana, sans-serif;
+}
+
+#dimensions {
+	height: 300px;
+	width: auto;
+	
+}
