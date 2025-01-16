@@ -84,7 +84,7 @@ button:hover {
 }
 
 .clicked {
-	background-color: dodgerblue;
+	background-color: dodgerblue !important;
 }
 #option {
 	margin-top: 20px;

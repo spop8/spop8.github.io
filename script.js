@@ -153,6 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				let tomatch2 = "";
 				let cardClicked = e.srcElement;
 
+				console.log(cardClicked);
 				console.log(cardClicked.children.length);
 				cardClicked.classList.add("clicked");
 				let clicked = document.getElementsByClassName("clicked");
