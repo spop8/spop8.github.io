@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flexbox Matching Game</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js"></script>
+	</head>
+	<body onload="shuffleAssign()">
+		<div id="background">
+			<!--overall-->
+			<h1 id="title">Matching Game</h1>
+			<h2 id="yw"></h2>
+			<div id="start">
+				<!--start game-->
+				<button id="restart">Start Game</button>
+			</div>
+			<div id="stats">
+				<!--score, attempts, time-->
+				<p id="score">Score:</p>
+				<p>Category:</p>
+				<!-- Dropdown menu for category selection -->
+				<select id="category">
+					<option value="comidas" selected>Las Comidas</option>
+					<option value="frutas">Las Frutas y Las Verduras</option>
+					<option value="carne">La Carne y El Pescado</option>
+					<option value="otras">Otras Comidas</option>
+					<option value="bebidas">Las Bebidas</option>
+				</select>
+			</div>
+			<div id="column">
+				<!--grid-->
+				<div class="row">
+					<!--column 1-->
+					<div class="words cards">
+						<!--row 1-->
+						<p>el/la camarero/a</p>
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/appetizer.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<img class="words" src="images/bill.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/appetizer.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/delicious.png" />
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<p>el desayuno</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<!--column 1-->
+					<div class="words cards">
+						<!--row 1-->
+						<p>el menú</p>
+					</div>
+					<div class="words cards">
+						<!--row 2-->
+						<img class="words" id="image1" src="images/breakfast.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<p>el almuerzo</p>
+					</div>
+					<div class="words cards">
+						<!--row 4-->
+						<p>La sección de (no) fumar</p>
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/dinner.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/tips.png" />
+					</div>
+				</div>
+
+				<div class="row">
+					<!--column 1-->
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" id="image2" src="images/food.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 2-->
+						<p>la cena</p>
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<p>la comida</p>
+					</div>
+					<div class="words cards">
+						<!--row 4-->
+						<img class="words" src="images/menu.jpg" />
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<p>rico/a</p>
+					</div>
+					<div class="words cards">
+						<!--row 1-->
+						<img class="words" src="images/smoke.png" />
+					</div>
+				</div>
+
+				<div class="row">
+					<!--column 1-->
+					<div class="words cards">
+						<!--row 1-->
+						<p>los entremeses</p>
+					</div>
+					<div class="words cards">
+						<!--row 2-->
+						<p>la cuenta</p>
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<img class="words" src="images/owner.png" />
+					</div>
+					<div class="words cards">
+						<!--row 4-->
+						<p>el/la dueño/a</p>
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<img class="words" src="images/lunch.avif" />
+					</div>
+					<div class="words cards">
+						<!--row 3-->
+						<p>la propina</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica;
+	font-size: 5vh;
+}
+button {
+	width: 100px;
+	height: 4vh;
+	border-radius: 5px;
+	font-size: 2vh;
+}
+#start {
+	display: flex;
+	justify-content: center;
+}
+#stats {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	font-size: 3vh;
+}
+#background {
+	background-color: aliceblue;
+	padding: 5px 10% 180px 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 1;
+	max-height: 200%;
+}
+.words {
+	background-color: skyblue;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 12vh;
+	flex-basis: 10rem;
+	padding: 2px;
+	max-width: 100%;
+	font-size: 20px;
+	max-height: 100%;
+}
+.words:hover {
+	box-shadow: 2px 2px darkblue;
+}
+#column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.row {
+	display: flex;
+	gap: 60px;
+	justify-content: center;
+}
+#category {
+	font-size: 3vh;
+	padding: 5px;
+	margin: 10px 0;
+	border-radius: 25px;
+	background-color: skyblue;
+}
+#image1 {
+	height: 80px;
+	max-width: 100%;
+	box-shadow: none;
+	flex-shrink: 1;
+}
+#image2 {
+	height: 80px;
+	max-width: 100%;
+	box-shadow: none;
+	flex-shrink: 1;
+}
+
+button:hover {
+	box-shadow: 3px 3px darkblue;
+}
+.cards {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.clicked {
+	background-color: dodgerblue;
+}
+#option {
+	margin-top: 20px;
+}
